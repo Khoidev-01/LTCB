@@ -1,0 +1,18 @@
+Đề thi môn LTCB trường ĐH xây dựng Miền trung ngày 29/12/2023
+
+
+Câu 1: (2.0 điểm) 
+Viết chương trình nhập vào thông tin một thí sinh dự thi gồm: Họ tên (Hoten), năm sinh (NS), điểm lý thuyết (DiemLT), điểm thực hành (DiemTH), điểm trung bình (DiemTB). Tính: DiemTB = (DiemLT+DiemTH)/2; Xếp loại (Xeploại) theo quy định: Nếu DiemTB >= 8 thì xếp loại là 'A', DiemTB từ 5 đến < 8 thì xếp loại là 'C', DiemTB < 5 xếp loại là 'D'. In thông tin: Hoten, NS, DiemLT, DiemTH, DiemTB và Xeploại ra màn hình.
+
+
+Câu 2: (3.0 điểm) 
+Viết hàm tính giá trị a mũ n (n nguyên dương); sử dụng hàm a mũ n viết hàm main() nhập vào 2 số nguyên x và n (điều kiện n > 0) sau đó tính tổng sau: S = 1/x + 2/x^2 + ... + n/x^n. Xuất giá trị tổng S ra màn hình.
+
+
+Câu 3: (5.0 điểm)
+a.(0.5 điểm) Khai báo kiểu dữ liệu cấu trúc (struct) để lưu thông tin về một nhân viên gồm: Mã nhân viên (Many), họ tên (Hoten), năm sinh (NS), hệ số lương (HSLuong), tiền lương (Tienluong). Khai báo mảng 1 chiều (danh sách) có tối đa là 50 phần tử, mỗi phần tử của màng lưu thông tin về một nhân viên có kiểu cấu trúc trên.
+b.(0.5 điểm) Khai báo và nhập số lượng nhân viên n (điều kiện n > 0)
+c.(1.0 điểm) Nhập danh sách với n nhân viên vào mảng,
+d.(1.0 điểm) Tính giá trị tiền lương tương ứng cho từng nhân viên theo công thức: Tienluong = HSLuong 1800000
+e.(1.0 điểm) Xuất danh sách nhân viên có hệ số lương >=3.0 ra màn hình.
+f.(1.0 điểm) Nhập mã nhân viên tìm kiếm (string Ma), kiểm tra xem trong danh sách vừa nhập có nhân viên với mã nhân viên là Ma không?
